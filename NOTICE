@@ -1,0 +1,15 @@
+Project Name: Improved FireFly Algorithm
+
+Description: This project represents the implementation of the training-free model evaluation based on the Intra-Cluster Distance, and the improved firefly algorithm (IFA) used in the paper "Improving Neural Architecture Search by Mixing a FireFly algorithm with a Training Free Evaluation" published in the "International Joint Conference on Neural Networks (IJCNN) 2022".
+
+Author: Nassim Mokhtari, Alexis Nédélec, Marlène Gilles and Pierre De Loor.
+
+Project URL: https://ieeexplore.ieee.org/xpl/conhome/9891857/proceeding
+
+This project uses the following third-party libraries:
+
+- nasbench, https://github.com/google-research/nasbench, Apache Licence, Version 2.0.
+- nas-bench-201, https://github.com/D-X-Y/NAS-Bench-201, MIT Licence.
+- xautodl, https://github.com/D-X-Y/AutoDL-Projects, MIT Licence.
+- nasbench_keras, https://github.com/lienching/nasbench_keras, MIT Licence.
+This project is licensed under the Apache License, Version 2.0. See the LICENSE file for more information about the terms of the license.
