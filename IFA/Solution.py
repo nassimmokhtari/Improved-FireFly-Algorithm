@@ -439,7 +439,6 @@ class SolutionFA(SolutionBase):
                 new_matrix.append(self.matrix[i])
             else:
                 new_matrix.append(self.move_matrix(i, solution_2, att, alpha))
-        self.matrix = new_matrix
         for i in range(len(new_matrix)):
             for j in range(i + 1):
                 new_matrix[i][j] = 0
@@ -448,7 +447,8 @@ class SolutionFA(SolutionBase):
         self.matrix = new_matrix
         if not self.validate():
             self.matrix = old_matrix
-
+        else:
+            self.evaluated = False
 
 class SolutionIFA(SolutionFA):
     def __init__(self, **kwargs):
