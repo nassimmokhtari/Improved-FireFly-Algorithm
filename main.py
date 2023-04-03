@@ -50,7 +50,7 @@ parser.add_argument('--gamma', default=0.15, type=float,
 parser.add_argument('--prob_mut', default=1.0, type=float,
                     help='mutation probability used by the Genetic Algorithm, default is 1.0')
 parser.add_argument('--chances', default=5, type=float,
-                    help='mutation probability used by the Genetic Algorithm, default is 5')
+                    help='number of chances before running the Genetic Algorithm, default is 5')
 parser.add_argument('--selection', default='random', type=str,
                     help='parent solution selection mode (random, fit or rank) for the Genetic Algorithm, default is '
                          'random')
