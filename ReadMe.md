@@ -39,7 +39,7 @@ In order to be able to use our implementation, please follow these instructions 
 
     git clone https://github.com/lienching/nasbench_keras
     cd nasbench_keras
-    pip3 install -e .
+    pip install -e .
 
 **4** - Install **xautodl** : 
 
