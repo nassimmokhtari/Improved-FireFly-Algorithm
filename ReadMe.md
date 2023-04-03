@@ -31,7 +31,7 @@ In order to be able to use our implementation, please follow these instructions 
 
     git clone https://github.com/google-research/nasbench
     cd nasbench
-    pip install -e 
+    pip install -e .
 
 * **note:** If you are using **tensorflow 2**,  you may have a problem when running nasbench, please refer to this solution  https://github.com/google-research/nasbench/issues/27#issuecomment-805730342
 
