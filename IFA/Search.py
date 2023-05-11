@@ -224,7 +224,8 @@ class Search_IFA:
             pickle.dump(search_information, open(path, 'wb'))
             print('local', local_best.fitness, local_best.get_final_accuracy(), 'chances', counter)
             pickle.dump(search_information, open(path, 'wb'))
-        bests.append(g_best)
+        if g_best:
+            bests.append(g_best)
         best_fitness = max([x.fitness for x in bests])
         best = [x for x in bests if x.fitness == best_fitness][0]
         pickle.dump(best, open(path_best, 'wb'))
